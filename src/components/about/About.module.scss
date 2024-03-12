@@ -1,0 +1,88 @@
+.whoWeAre__container {
+  width: 100%;
+  display: flex;
+  margin: 180px 0 0 0;
+  background-color: white;
+}
+
+.whoWeAre__container__content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1046px;
+}
+
+.whoWeAre__header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  padding: 100px 0 15px 0;
+}
+
+.whoWeAre__subtitle {
+  text-align: center;
+  max-width: 563px;
+  margin: 0 auto;
+  line-height: 23px;
+}
+
+.whoWeAre__content {
+  width: 100%;
+  display: flex;
+  margin: 100px 0 0 0;
+  padding: 0 0 136px 0;
+}
+
+.whoWeAre__video {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+}
+
+.whoWeAre__description {
+  width: 100%;
+  max-width: calc(100% - 600px - 80px);
+  margin-left: 80px;
+}
+
+.whoWeAre__title {
+  font-weight: 700;
+  font-size: 44px;
+  color: #252B42;
+  padding: 0 0 29px 0;
+}
+
+.whoWeAreSub {
+  max-width: 362px;
+  line-height: 24px;
+  padding: 0 0 30px 0;
+}
+
+.whoWeAre__icon__container {
+  width: 100%;
+  display: flex;
+  padding: 0 0 30px 0;
+}
+
+.whoWeAre__icon {
+  display: flex;
+}
+
+.whoWeAre__icon__description {
+  padding: 0 0 0 21px;
+}
+
+.icon__descriptionTitle {
+  font-weight: 700;
+  padding: 0 0 5px 0;
+}
+
+.whoWeAre__icon__containerSecond {
+  width: 100%;
+  display: flex;
+}
+
+
+.icon__DescriptionDescription {}

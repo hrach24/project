@@ -1,0 +1,66 @@
+.practice {
+  display: flex;
+  width: 100%;
+  margin-top: 125px;
+}
+
+.practice__container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1046px;
+}
+
+.practice__containerTitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 37px;
+  padding: 0 0 10px 0;
+}
+
+.practice__containerSubTitle {
+  text-align: center;
+}
+
+.practice__cards {
+  max-width: 1064px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 84px;
+}
+
+.practice__card {
+  width: calc((100% - 90px) / 4);
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.practice__card:not(:last-child) {
+  margin-right: 30px;
+}
+
+.card__content {
+  padding: 30px;
+}
+
+.practice__cardTitle {
+  max-width: 200px;
+  font-weight: 700;
+  font-size: 19px;
+  padding: 0 0 15px 0;
+}
+
+.img__container {
+  display: flex;
+  margin-top: auto;
+}
+
+.img__container img {
+  width: 100%;
+}
+
+.practice__cardSubtitle {}

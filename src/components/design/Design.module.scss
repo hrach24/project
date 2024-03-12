@@ -1,0 +1,67 @@
+.design {
+    width: 100%;
+    display: flex;
+    margin: 71px 0 0 0;
+}
+
+.design__container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.design__containerTitle {
+    font-weight: 700;
+    font-size: 34px;
+    padding: 0 0 23px 0;
+}
+
+.design__containerSubTitle {
+    max-width: 560px;
+    margin: 0 auto;
+    color: #737373;
+}
+
+.design__cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.design__card {
+    width: calc((100% - 90px) / 4);
+    background-color: white;
+    padding: 33px 33px 35px 33px;
+}
+
+.design__card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.design__card img{
+    padding: 0 0 23px 0;
+}
+
+.design__cardNumber {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 0 0 29px 0;
+}
+
+._service img {
+    height: 71px;
+}
+
+._business img {
+    height: 71px;
+}
+
+.container {
+    max-width: 1046px;
+}
+
+._consumer {}
+
+.design__cardTitle {}
+
+._environmental {}
