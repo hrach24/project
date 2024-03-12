@@ -1,0 +1,52 @@
+.cards {
+    display: flex;
+    width: 100%;
+    margin-top: 78px;
+}
+
+.cards__block {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc((100% - 60px) / 3 );
+    height: 328px;
+    padding: 50px 40px 38px;
+    background-color: white;
+}
+
+.card:not(:last-child) {
+    margin: 0 28px 0 0;
+}
+
+.card__img {
+    padding: 0 0 20px 0;
+}
+
+.card__title {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0 0 23px 0;
+}
+
+.container {
+    max-width: 1046px;
+}
+
+.cards__blockConsulting {
+    background-color: #0D5C63;
+}
+
+.cards__blockConsulting p {
+    color: white;
+}
+
+.cards__blockEnvironmental {}
+
+.card__subtitle {}
+
+.cards__blockFinance {}
