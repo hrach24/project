@@ -33,18 +33,31 @@
   display: flex;
   margin: 100px 0 0 0;
   padding: 0 0 136px 0;
+
+  @media screen and (max-width: 1024px) {
+    flex-wrap: wrap;
+  }
 }
 
 .whoWeAre__video {
   max-width: 600px;
   width: 100%;
   display: flex;
+
+  @media screen and (max-width: 1024px) {
+    max-width: none;
+  }
 }
 
 .whoWeAre__description {
   width: 100%;
   max-width: calc(100% - 600px - 80px);
   margin-left: 80px;
+
+  @media screen and (max-width: 1024px) {
+    margin-left: 0;
+    max-width: none;
+  }
 }
 
 .whoWeAre__title {
@@ -52,18 +65,29 @@
   font-size: 44px;
   color: #252B42;
   padding: 0 0 29px 0;
+  @media screen and (max-width: 1024px) {
+    padding-top: 29px;
+  }
+
 }
 
 .whoWeAreSub {
   max-width: 362px;
   line-height: 24px;
   padding: 0 0 30px 0;
+
+  @media screen and (max-width: 1024px) {
+    max-width: 100%;
+  }
 }
 
 .whoWeAre__icon__container {
   width: 100%;
   display: flex;
   padding: 0 0 30px 0;
+  @media screen and (max-width: 1024px) {
+    justify-content: center;
+  }
 }
 
 .whoWeAre__icon {
@@ -82,7 +106,23 @@
 .whoWeAre__icon__containerSecond {
   width: 100%;
   display: flex;
+  padding: 0 0 30px 0;
+
+  @media screen and (max-width: 1024px) {
+    justify-content: center;
+  }
 }
 
+.whoWeAre__containerImg {
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.icon__containers {
+  @media screen and (max-width: 1024px) {
+    display: flex;
+  }
+}
 
 .icon__DescriptionDescription {}

@@ -3,8 +3,8 @@ import Finance from "../../finance/Finance";
 import Cards from "../../cards/Card";
 import Design from "../../design/Design";
 import Practice from "../../practice/Practice";
-import App from "../../../App";
 import About from "../../about/About";
+import NewsLetter from "../../newsLetter/NewsLetter";
 
 export default function Main() {
     return(
@@ -15,6 +15,7 @@ export default function Main() {
                 <Design />
                 <Practice />
                 <About />
+                <NewsLetter />
             </main>
         </>
     )

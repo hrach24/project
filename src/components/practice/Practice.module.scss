@@ -37,10 +37,32 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-}
 
-.practice__card:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  @media screen and (max-width: 650px) {
+    &:not(:last-child) {
+      width: 100%;
+      margin: 0 0 15px 0;
+    }
+
+    &:last-child {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: calc((100% - 30px) / 2);
+    margin: 0 0 15px 0;
+
+    &:nth-child(2) {
+      margin: 0 0 15px 0;
+    }
+
+
+  }
 }
 
 .card__content {
