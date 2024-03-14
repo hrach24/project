@@ -12,7 +12,7 @@ import classNames from "classnames";
 const NewsLetter = () => {
     return (
         <div className="newsletter">
-            <div className={classNames(classes.newsletter__container, classes.container)}>
+            <div className={classNames(classes.newsletter__container, 'container')}>
                 <div className={classes.newsletter__partners}>
                     <div className={classes.newsletter__partner}>
                         <img src={clientImg06} alt="" />

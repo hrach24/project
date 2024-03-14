@@ -9,7 +9,7 @@ import FoPracticeImg from '../../assets/img/practice-4.jpg';
 const Practice = () => {
     return (
         <div className={classes.practice}>
-            <div className={classNames(classes.practice__container, classes.container)}>
+            <div className={classNames(classes.practice__container, 'container')}>
                 <div className={classes.practice__containerTitle}>Practice Advice</div>
                 <div className={classes.practice__containerSubTitle}>Problems trying to resolve the conflict between <br/> the two
                     major realms of Classical physics: Newtonian mechanics

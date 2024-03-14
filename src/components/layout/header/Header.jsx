@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <>
             <header className={classes.header}>
-                <div className={classNames(classes.header__container, classes.container)}>
+                <div className={classNames(classes.header__container, 'container')}>
                     <div className={classes.header__logo}>
                         Relvise
                     </div>

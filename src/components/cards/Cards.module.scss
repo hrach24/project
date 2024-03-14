@@ -47,19 +47,11 @@
 
 }
 
-.card__img {
-    padding: 0 0 20px 0;
-}
-
 .card__title {
     font-size: 26px;
     font-weight: bold;
     line-height: 1.2;
-    padding: 0 0 23px 0;
-}
-
-.container {
-    max-width: 1046px;
+    margin-top: 20px;
 }
 
 .cards__blockConsulting {
@@ -72,6 +64,9 @@
 
 .cards__blockEnvironmental {}
 
-.card__subtitle {}
+.card__subtitle {
+    margin: 23px 0 0 0;
+}
 
 .cards__blockFinance {}
+.card__img {}

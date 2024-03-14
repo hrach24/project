@@ -1,6 +1,11 @@
 .finance__block {
     margin: 0 auto;
     display: flex;
+    padding: 80px 0 0 0;
+
+    @media screen and (max-width: 1116px) {
+        padding: 80px 0 0 15px;
+    }
 }
 
 .finance__container {
@@ -21,30 +26,6 @@
 .finance__subtitle {
     color: #737373;
     margin: 0 0 40px 0;
-}
-
-.btnStyle {
-    padding: 15px 40px;
-    border-radius: 15px;
-    border: none;
-}
-
-.btnStyle:not(:last-child) {
-    margin: 0 10px 0 0;
-}
-
-.finance__buttonsGetQuote {
-    background-color: #FF7B47;
-    color: white;
-    font-weight: bold;
-}
-
-.finance__buttonsLearnMore {
-    padding: 13px 38px;
-    background-color: transparent;
-    color: #0D5C63;
-    font-weight: bold;
-    border: 2px solid #0D5C63;
 }
 
 .header_img {
@@ -68,3 +49,4 @@
 
 
 .finance__buttons {}
+

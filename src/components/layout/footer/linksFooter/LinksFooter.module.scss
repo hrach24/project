@@ -1,0 +1,28 @@
+.links {}
+
+.link__footer {
+  display: flex;
+  padding: 25px 10px;
+  justify-content: space-between;
+}
+
+.linkListItem {
+  display: flex;
+}
+
+.itemLink {
+  display: flex;
+
+}
+
+.linkListItem:not(:first-child) {
+  margin-left: 20px;
+}
+
+.itemImg {
+  display: flex;
+}
+
+.linksList {
+  display: flex;
+}

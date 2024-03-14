@@ -5,6 +5,7 @@ import Design from "../../design/Design";
 import Practice from "../../practice/Practice";
 import About from "../../about/About";
 import NewsLetter from "../../newsLetter/NewsLetter";
+import GetInTouch from "../../getInTouch/GetInTouch";
 
 export default function Main() {
     return(
@@ -16,6 +17,7 @@ export default function Main() {
                 <Practice />
                 <About />
                 <NewsLetter />
+                <GetInTouch />
             </main>
         </>
     )

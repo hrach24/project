@@ -1,16 +1,13 @@
 import React from 'react';
 import classes from './About.module.scss'
 import classNames from "classnames";
-import practiceImg1 from "../../assets/img/practice-1.jpg";
-import practiceImg2 from "../../assets/img/practice-2.jpg";
 import practiceImg3 from "../../assets/img/practice-3.jpg";
-import practiceImg4 from "../../assets/img/practice-4.jpg";
 import icon01 from "../../assets/img/icon-01.svg";
 import icon02 from "../../assets/img/icon-02.svg";
 const About = () => {
     return (
         <div className={classes.whoWeAre__container}>
-            <div className={classNames(classes.whoWeAre__container__content, classes.container)}>
+            <div className={classNames(classes.whoWeAre__container__content, 'container')}>
                 <div className={classes.whoWeAre__header}>Who We Are</div>
                 <div className={classes.whoWeAre__subtitle}>Problems trying to resolve the conflict between the two major realms of
                     Classical physics: Newtonian mechanics

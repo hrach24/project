@@ -1,10 +1,12 @@
 import classes from './Finance.module.scss'
 import imgCover from '../../../src/assets/img/cover.jpg'
+import classNames from "classnames";
+import Button from "../ui/button/Button";
 
 export default function Finance() {
     return(
         <>
-            <div className={`${classes.finance__block} ${classes.container}`}>
+            <div className={classNames(classes.finance__block, 'container')}>
                 <div className={classes.finance__container}>
                     <div className={classes.finance__title}>
                         Finance and Consultancy Solution
@@ -13,12 +15,7 @@ export default function Finance() {
                         We know how large objects will act,
                         but things on a small scale.
                     </div>
-                    <div className={classes.finance__buttons}>
-                        <div className={classes.finance__buttons}>
-                            <button className={`${classes.finance__buttonsGetQuote} ${classes.btnStyle}`}>Get Quote Now</button>
-                            <button className={`${classes.btnStyle} ${classes.finance__buttonsLearnMore}`}>Learn More</button>
-                        </div>
-                    </div>
+                       <Button />
                 </div>
                 <div className={classes.header_img}>
                     <img src={imgCover} alt="" />

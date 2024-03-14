@@ -1,0 +1,41 @@
+.agency {
+  padding: 40px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  @media screen and (max-width: 663px) {
+    text-align: center;
+  }
+
+}
+
+.subTitle {
+  margin-top: 10px;
+  @media screen and (max-width: 663px) {
+    text-align: center;
+  }
+}
+
+.footerBtn {
+  padding: 15px 40px;
+  background-color: #FF7B47;
+  border: 1px solid #FF7B47;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  @media screen and (max-width: 663px) {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.titleAndSubtitle {
+  @media screen and (max-width: 663px) {
+    width: 100%;
+  }
+}

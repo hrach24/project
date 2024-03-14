@@ -1,27 +1,23 @@
 .practice {
   display: flex;
   width: 100%;
-  margin-top: 125px;
 }
 
 .practice__container {
   width: 100%;
   margin: 0 auto;
-}
-
-.container {
-  max-width: 1046px;
+  padding: 80px 0;
 }
 
 .practice__containerTitle {
   text-align: center;
   font-weight: 700;
   font-size: 37px;
-  padding: 0 0 10px 0;
 }
 
 .practice__containerSubTitle {
   text-align: center;
+  margin-top: 10px;
 }
 
 .practice__cards {
@@ -41,18 +37,15 @@
   &:not(:last-child) {
     margin-right: 30px;
   }
-
   @media screen and (max-width: 650px) {
     &:not(:last-child) {
       width: 100%;
       margin: 0 0 15px 0;
     }
-
     &:last-child {
       width: 100%;
     }
   }
-
   @media screen and (max-width: 1024px) {
     width: calc((100% - 30px) / 2);
     margin: 0 0 15px 0;
@@ -60,8 +53,6 @@
     &:nth-child(2) {
       margin: 0 0 15px 0;
     }
-
-
   }
 }
 
@@ -73,7 +64,10 @@
   max-width: 200px;
   font-weight: 700;
   font-size: 19px;
-  padding: 0 0 15px 0;
+}
+
+.practice__cardSubtitle {
+  margin-top: 15px;
 }
 
 .img__container {
@@ -85,4 +79,3 @@
   width: 100%;
 }
 
-.practice__cardSubtitle {}
