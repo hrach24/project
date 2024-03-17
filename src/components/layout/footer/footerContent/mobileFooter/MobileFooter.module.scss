@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  color: white;
+  margin: 20px 30px 0 0;
+}
+
+
+.list {
+  color: white;
+  margin: 20px 30px 0 0;
+}
+
+.item {
+  padding: 10px 0;
+}
+
+.companyContainer {
+  margin-top: 20px;
+}
+
+.title{
+  color: white;
+}
+
+.titleImgContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrowImg {
+  cursor: pointer;
+}
+
+.mobileResourcesTitle{
+  color: white;
+  font-weight: bold;
+}

@@ -5,10 +5,6 @@ import { useMediaQuery } from "react-responsive";
 import MenuBurger from "../../ui/menuBurger/MenuBurger";
 import HeaderLinks from "./headerLinks/HeaderLinks";
 
-
-
-
-
 const Header = () => {
     const tabletScreenWidth = useMediaQuery({query: '(max-width: 1024px)'});
     const tabletScreenWidthTrueFalse = tabletScreenWidth ? 'mobileMenu' : 'container'

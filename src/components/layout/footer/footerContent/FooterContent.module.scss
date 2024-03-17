@@ -3,14 +3,19 @@
 }
 
 .links_container {
-  max-width: 1046px;
+  max-width: 1066px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px 20px;
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .listHolder {
   display: flex;
-  flex-wrap: wrap;
+  @media screen and (max-width: 910px) {
+      display: contents;
+      width: 100%;
+  }
+
 }

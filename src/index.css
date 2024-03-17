@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: myFont;
+  src: url("./assets/fonts/montFont.ttf");
+}
+
 body {
+  font-family: myFont, serif;
   background-color: #FAFAFA;
 }
+
 
 ul {
   list-style-type: none;
@@ -16,11 +23,3 @@ a {
   text-decoration: none;
 }
 
-@font-face {
-  font-family: myFont;
-  src: url("./assets/fonts/montFont.ttf");
-}
-
-body {
-  font-family: myFont, serif;
-}
