@@ -1,0 +1,22 @@
+.products {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.product {
+  width: calc((100% - 2 * 20px) / 3);
+  position: relative;
+}
+
+.productImg {
+  width: 100%;
+}
+
+.productDescription {
+  position: absolute;
+  top: 76%;
+}
+
+.products {
+  padding: 100px 0 200px 0;
+}
