@@ -7,13 +7,14 @@ import classNames from "classnames";
 import { useMediaQuery } from "react-responsive";
 const footerLinks = FOOTER__DATA
 const ContentFooter = () => {
-    const arrowDownMediaRequest = useMediaQuery({query: '(max-width: 663px)'});
+    const arrowDownMediaRequest = useMediaQuery({query: '(max-width: 680px)'});
     const [currentObj, updateObj] = useState();
     const [listItemId, updateListItemId] = useState();
 
-    function changeTheFunc(clickedObj, clickedItemId) {
-        updateListItemId(clickedItemId);
-        if (clickedItemId !== listItemId) {
+
+    function showListItem(clickedObj, clickedItemIndex) {
+        updateListItemId(clickedItemIndex);
+        if (clickedItemIndex !== listItemId) {
             footerLinks.map((item) => updateObj(item.hide = false));
 
         }
@@ -26,13 +27,22 @@ const ContentFooter = () => {
                 footerLinks.map((item, index) => {
                     return (
                         <div className={classNames(classes.footerMenuListContainer, index + 1 === footerLinks.length ? classes.lastContent : null)} key={item.id}>
-                            <div className={classNames(classes.title, item.hide ? classes.clickedTitle : null)} onClick={() => changeTheFunc(FOOTER__DATA[index], item.id)}>
+                            <div className={classNames(classes.MobileTitle, item.hide ? classes.clickedTitle : null)} onClick={() => showListItem(item, index)}>
                                 { item.title }
-                                { arrowDownMediaRequest ? <img src={ item.hide ? imgArrowDown : imgArrowUp } alt=""/> : null }
-
+                                {arrowDownMediaRequest ? <img src={item.hide ? imgArrowUp : imgArrowDown} alt=""/> : null }
                             </div>
-                            {
-                                item.hide ? <ul className={classNames(classes.containerList, index + 1 === footerLinks.length ? classes.lastList : null)}>
+                            {arrowDownMediaRequest ? <ul>
+                                    { item.hide ?
+                                        item.children.map((paths) => {
+                                            return (
+                                                <li className={classes.listItem}>
+                                                    {paths.path}
+                                                </li>
+                                            )
+                                        })
+                                   : null }
+                                </ul> :
+                                <ul className={classNames(classes.containerList, index + 1 === footerLinks.length ? classes.lastList : null)}>
                                     {
                                         item.children.map((paths) => {
                                             return (
@@ -42,7 +52,7 @@ const ContentFooter = () => {
                                             )
                                         })
                                     }
-                                </ul> : null
+                                </ul>
                             }
 
                         </div>

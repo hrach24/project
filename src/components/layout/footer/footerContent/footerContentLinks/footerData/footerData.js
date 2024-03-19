@@ -47,7 +47,7 @@
 
 export const FOOTER__DATA = [
     {
-        id: 1,
+        id: 10,
         title: 'Legal',
         hide: false,
         children: [
