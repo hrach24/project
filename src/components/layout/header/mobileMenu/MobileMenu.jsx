@@ -1,11 +1,12 @@
 import React from 'react';
 import classes from "./MobileMenu.module.scss";
+import classNames from "classnames";
 
 const MobileMenu = () => {
     return (
         <div  className={classes.styled}>
 
-            <div className={classes.mobileMenu}></div>
+            <div className={classNames(classes.mobileMenu, 'show')}></div>
 
         </div>
     );

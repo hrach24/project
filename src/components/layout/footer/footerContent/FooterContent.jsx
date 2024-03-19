@@ -1,17 +1,14 @@
 import React from 'react';
 import classes from './FooterContent.module.scss'
 import classNames from "classnames";
-import { useMediaQuery } from "react-responsive";
-import DesktopAndTabletFooter from "./desktopAndTabletFooter/DesktopAndTabletFooter";
-import MobileFooter from "./mobileFooter/MobileFooter";
-const FooterContent = () => {
-    const checkWidth = useMediaQuery({query: '(max-width: 912px)'});
+import ContentFooter from "./contentFooter/ContentFooter";
 
+const FooterContent = () => {
     return (
         <div className={classes.links}>
             <div className={classNames(classes.links_container, 'container')}>
                 <div className={classes.listHolder}>
-                    {checkWidth ? <MobileFooter /> : <DesktopAndTabletFooter />}
+                    <ContentFooter />
                 </div>
             </div>
         </div>

@@ -13,9 +13,15 @@
 
 .listHolder {
   display: flex;
-  @media screen and (max-width: 910px) {
-      display: contents;
-      width: 100%;
+  flex-wrap: wrap;
+  @media screen and (max-width: 913px) {
+      justify-content: space-between;
+  }
+
+  @media screen and (max-width: 663px){
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 
 }
