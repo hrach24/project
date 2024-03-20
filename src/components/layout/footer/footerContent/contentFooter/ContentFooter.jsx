@@ -5,6 +5,7 @@ import imgArrowDown from '../../../../../assets/img/arrow-down.png';
 import imgArrowUp from '../../../../../assets/img/arrow-up.png'
 import classNames from "classnames";
 import { useMediaQuery } from "react-responsive";
+import {Link} from "react-router-dom";
 const footerLinks = FOOTER__DATA
 const ContentFooter = () => {
     const arrowDownMediaRequest = useMediaQuery({query: '(max-width: 680px)'});
@@ -36,7 +37,7 @@ const ContentFooter = () => {
                                         item.children.map((paths) => {
                                             return (
                                                 <li className={classes.listItem}>
-                                                    {paths.path}
+                                                    <Link href="#" className={classes.listItem} to={'#'}>{paths.path}</Link>
                                                 </li>
                                             )
                                         })
@@ -47,7 +48,7 @@ const ContentFooter = () => {
                                         item.children.map((paths) => {
                                             return (
                                                 <li className={classes.listItem}>
-                                                    {paths.path}
+                                                    <Link href="#" className={classes.listItem} to={'#'}>{paths.path}</Link>
                                                 </li>
                                             )
                                         })

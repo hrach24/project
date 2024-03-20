@@ -9,12 +9,10 @@ import LinksFooter from "./linksFooter/LinksFooter";
 
 export default function Footer() {
     return (
-        <>
-            <footer className={classes.footer}>
-                <ConsultingAgency />
-                <FooterContent />
-                <LinksFooter />
-            </footer>
-        </>
+        <footer className={classes.footer}>
+            <ConsultingAgency/>
+            <FooterContent/>
+            <LinksFooter/>
+        </footer>
     )
 }

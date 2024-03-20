@@ -2,22 +2,14 @@
   background-color: #17213C;
 }
 
-.links_container {
-  max-width: 1066px;
-  margin: 0 auto;
+
+.listHolder {
   padding: 50px 20px;
   display: flex;
   flex-wrap: wrap;
-}
+  justify-content: space-between;
 
-.listHolder {
-  display: flex;
-  flex-wrap: wrap;
-  @media screen and (max-width: 914px) {
-      justify-content: space-between;
-  }
-
-  @media screen and (max-width: 680px){
+  @media screen and (max-width: 680px) {
     display: flex;
     flex-direction: column;
     width: 100%;

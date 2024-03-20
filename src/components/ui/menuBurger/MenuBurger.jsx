@@ -13,12 +13,8 @@ const MenuBurger = () => {
     }
     return (
         <>
-            <li className={classes.menu__icon} onClick={showMobileMenu}>
-                <img src={mobileIcon} alt="MenuIcon"/>
-            </li>
-
-
-            { showMenu && createPortal(<MobileMenu />, document.body)  }
+            <img src={mobileIcon} alt="MenuIcon" onClick={showMobileMenu}/>
+            { showMenu && createPortal(<MobileMenu showMenu={ showMenu }/>, document.body)  }
         </>
 
 

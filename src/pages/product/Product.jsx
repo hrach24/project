@@ -2,6 +2,7 @@ import React from 'react';
 import classes from './Product.module.scss';
 import cartierImg from '../../assets/img/cartierr.jpg';
 import classNames from "classnames";
+import Button from "../../components/ui/button/Button";
 
 const Product = () => {
     return (
@@ -15,7 +16,9 @@ const Product = () => {
                                     <p className={classes.title}>Title: Sunglasses</p>
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
-                                    <button className={classes.buy}>Buy</button>
+                                    <div className={classes.wrapper}>
+                                        <Button text={'Buy'}/>
+                                    </div>
                                 </div>
 
                             </div>
@@ -27,7 +30,9 @@ const Product = () => {
                                     <p className={classes.title}>Title: Sunglasses</p>
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
-                                    <button className={classes.buy}>Buy</button>
+                                    <div className={classes.wrapper}>
+                                        <button className={classes.buy}>Buy</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -39,7 +44,9 @@ const Product = () => {
                                     <p className={classes.title}>Title: Sunglasses</p>
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
-                                    <button className={classes.buy}>Buy</button>
+                                    <div className={classes.wrapper}>
+                                        <button className={classes.buy}>Buy</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -51,7 +58,9 @@ const Product = () => {
                                     <p className={classes.title}>Title: Sunglasses</p>
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
-                                    <button className={classes.buy}>Buy</button>
+                                    <div className={classes.wrapper}>
+                                        <button className={classes.buy}>Buy</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -63,7 +72,9 @@ const Product = () => {
                                     <p className={classes.title}>Title: Sunglasses</p>
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
-                                    <button className={classes.buy}>Buy</button>
+                                    <div className={classes.wrapper}>
+                                        <button className={classes.buy}>Buy</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -75,7 +86,9 @@ const Product = () => {
                                     <p className={classes.title}>Title: Sunglasses</p>
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
-                                    <button className={classes.buy}>Buy</button>
+                                    <div className={classes.wrapper}>
+                                        <button className={classes.buy}>Buy</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -87,7 +100,9 @@ const Product = () => {
                                     <p className={classes.title}>Title: Sunglasses</p>
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
-                                    <button className={classes.buy}>Buy</button>
+                                    <div className={classes.wrapper}>
+                                        <button className={classes.buy}>Buy</button>
+                                    </div>
                                 </div>
 
                             </div>
@@ -98,12 +113,12 @@ const Product = () => {
                                 <p className={classes.title}>Title: Sunglasses</p>
                                 <p className={classes.title}>Model: S</p>
                                 <p className={classes.title}>Price: 20$</p>
-                                <button className={classes.buy}>Buy</button>
+                                <div className={classes.wrapper}>
+                                    <button className={classes.buy}>Buy</button>
+                                </div>
                             </div>
-
-                        </div>
-                    </div>
-
+                            </div>
+                         </div>
                     </div>
                 </div>
         </div>

@@ -17,8 +17,12 @@
   align-items: center;
   justify-content: center;
 
-  &:not(:last-child) {
-    margin-inline-end: 30px;
+  &:not(:nth-child(6n + 1)) {
+    margin-inline-start: 30px;
+  }
+
+  &:nth-child(n + 7) {
+    margin-top: 15px;
   }
 
   @media screen and (max-width: 1024px) {

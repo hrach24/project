@@ -5,7 +5,8 @@
 
 .practice__container {
   width: 100%;
-  margin-top: 80px;
+  padding-top: 80px ;
+  padding-bottom: 80px ;
 }
 
 .practice__containerTitle {
@@ -32,10 +33,14 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-
-  &:not(:last-child) {
-    margin-right: 30px;
+  &:not(:nth-child(4n + 1)) {
+    margin-inline-start: 30px;
   }
+
+  &:nth-child(n + 5) {
+    margin-top: 15px;
+  }
+
   @media screen and (max-width: 650px) {
     &:not(:last-child) {
       width: 100%;
@@ -43,14 +48,14 @@
     }
     &:last-child {
       width: 100%;
+      margin-inline-start: 0;
     }
   }
   @media screen and (max-width: 1024px) {
     width: calc((100% - 30px) / 2);
     margin: 0 0 15px 0;
-
-    &:nth-child(2) {
-      margin: 0 0 15px 0;
+    &:nth-child(2n + 1) {
+      margin-inline-start: 0;
     }
   }
 }

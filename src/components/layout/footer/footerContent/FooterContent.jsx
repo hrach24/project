@@ -6,11 +6,9 @@ import ContentFooter from "./contentFooter/ContentFooter";
 const FooterContent = () => {
     return (
         <div className={classes.links}>
-            <div className={classNames(classes.links_container, 'container')}>
-                <div className={classes.listHolder}>
+                <div className={classNames(classes.listHolder, "container")}>
                     <ContentFooter />
                 </div>
-            </div>
         </div>
     );
 };

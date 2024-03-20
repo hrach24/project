@@ -18,30 +18,30 @@ const Design = () => {
                     </div>
 
                     <div className={classes.design__cards}>
-                        <div className={`${classes.design__card} ${classes._consumer}`}>
+                        <div className={classNames(classes.design__card, classes._consumer)}>
                             <div className={classes.wrapper}>
-                                <img src={peopleImg} alt=""/>
+                                <img src={peopleImg} alt="" className={classes.designCard}/>
                             </div>
                             <div className={classes.design__cardNumber}>972 +</div>
                             <div className={classes.design__cardTitle}>Consumer Products</div>
                         </div>
-                        <div className={`${classes.design__card} ${classes._service}`}>
+                        <div className={classNames(classes.design__card, classes._service)}>
                             <div className={classes.wrapper}>
-                                <img src={atomsImg} alt=""/>
+                                <img src={atomsImg} alt="" className={classes.designCard}/>
                             </div>
                             <div className={classes.design__cardNumber}>181+</div>
                             <div className={classes.design__cardTitle}>Financial Services</div>
                         </div>
-                        <div className={`${classes.design__card} ${classes._environmental}`}>
+                        <div className={classNames(classes.design__card, classes._environmental)}>
                             <div className={classes.wrapper}>
-                                <img src={rewardImg} alt=""/>
+                                <img src={rewardImg} alt="" className={classes.designCard}/>
                             </div>
                             <div className={classes.design__cardNumber}>98%</div>
                             <div className={classes.design__cardTitle}>Environmental</div>
                         </div>
-                        <div className={`${classes.design__card} ${classes._business}`}>
+                        <div className={classNames(classes.design__card, classes._business)}>
                             <div className={classes.wrapper}>
-                                <img src={caseImg} alt=""/>
+                                <img src={caseImg} alt="" className={classes.designCard}/>
                             </div>
                             <div className={classes.design__cardNumber}>746+</div>
                             <div className={classes.design__cardTitle}>Business & Finance</div>

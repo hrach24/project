@@ -35,7 +35,7 @@
   color: white;
   border-radius: 5px;
   margin-top: 10px;
-  display: none;
+  //display: none;
 }
 
 .title:not(:first-child) {
@@ -44,9 +44,8 @@
 
 .productDescription:hover {
   transform: translateY(-40px);
-  .buy {
-    //position: absolute;
-    display: block  ;
+  .wrapper {
+    display: block;
   }
 }
 
@@ -110,4 +109,9 @@
     margin-inline-end: 0;
     margin-top: 20px;
   }
+}
+
+.wrapper {
+  margin-top: 15px;
+  display: none;
 }

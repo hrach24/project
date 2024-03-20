@@ -16,8 +16,8 @@
     height: 328px;
     padding: 50px 40px 38px;
     background-color: white;
-    &:not(:last-child) {
-        margin: 0 28px 0 0;
+    &:not(:first-child) {
+        margin-inline-start: 28px;
     }
 
     @media screen and (max-width: 650px) {
@@ -34,17 +34,11 @@
 
     @media screen and (max-width: 1024px) {
         width: calc((100% - 30px) / 2);
-
-        &:nth-child(2) {
-            margin: 0 0 15px 0;
-        }
-
         &:last-child {
             margin: 0;
             width: 100%;
         }
     }
-
 }
 
 .card__title {
@@ -68,5 +62,16 @@
     margin: 23px 0 0 0;
 }
 
+.cardImgWrapper {
+    width: 48px;
+    height: 48px;
+    display: flex;
+}
+
+.card__img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.cardImgWrapper img {}
 .cards__blockFinance {}
-.card__img {}
