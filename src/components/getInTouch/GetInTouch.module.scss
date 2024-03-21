@@ -3,7 +3,8 @@
 }
 
 .getInTouch__container {
-  padding: 80px 33px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .getInTouch__containerText {
@@ -31,10 +32,12 @@
   flex-direction: column;
   align-items: center;
   background-color: white;
+  &:nth-child(n + 4) {
+    margin-top: 10px;
+  }
 
   @media screen and (max-width: 870px) {
     width: 100%;
-
     &:not(:first-child) {
       margin-top: 20px;
     }

@@ -25,9 +25,12 @@
 .whoWeAre__content {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   margin: 100px 0 136px 0;
   justify-content: space-between;
-
+  &:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
   @media screen and (max-width: 1024px) {
     flex-wrap: wrap;
   }
@@ -37,7 +40,7 @@
   max-width: 600px;
   width: 100%;
   display: flex;
-
+  flex-direction: column;
   @media screen and (max-width: 1024px) {
     max-width: none;
   }
@@ -67,7 +70,6 @@
   max-width: 362px;
   line-height: 24px;
   margin: 30px 0;
-
   @media screen and (max-width: 1024px) {
     max-width: 100%;
   }
@@ -77,8 +79,29 @@
   width: 100%;
   display: flex;
   align-items: center;
+    &:not(:first-child) {
+      margin-top: 15px;
+    }
   @media screen and (max-width: 1024px) {
-    align-items: center;
+    width: calc(100% / 2);
+    &:nth-child(2n) {
+      justify-content: center;
+    }
+    &:not(:first-child) {
+      margin-top: 0;
+    }
+    &:not(:nth-child(-n + 2)) {
+      margin-top: 15px;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    width: 100%;
+    justify-content: center;
+    &:not(:first-child) {
+      margin-top: 15px;
+      justify-content: center;
+    }
   }
 }
 
@@ -104,19 +127,6 @@
   padding: 0 0 5px 0;
 }
 
-.whoWeAre__icon__containerSecond {
-  width: 100%;
-  display: flex;
-  margin: 30px 0;
-  align-items: center;
-  @media screen and (max-width: 1024px) {
-    justify-content: center;
-  }
-  @media screen and (max-width: 730px){
-    justify-content: flex-start;
-  }
-}
-
 .whoWeAre__containerImg {
   @media screen and (max-width: 1024px) {
     width: 100%;
@@ -126,6 +136,7 @@
 .icon__containers {
   @media screen and (max-width: 1024px) {
     display: flex;
+    flex-wrap: wrap;
   }
   @media screen and (max-width: 730px){
     flex-wrap: wrap;

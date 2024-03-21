@@ -2,7 +2,6 @@
     margin: 0 auto;
     display: flex;
     margin-top: 80px;
-
     @media screen and (max-width: 1116px) {
         padding: 80px 0 0 15px;
     }
@@ -20,6 +19,9 @@
     font-weight: 900;
     line-height: 66px;
     letter-spacing: 2px;
+    @media screen and (max-width: 306px){
+        font-size: 29px;
+    }
 }
 
 .finance__subtitle {
@@ -48,4 +50,10 @@
 
 .finance__buttons {
     margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.learnMoreBtn:not(:first-child) {
+    margin-inline-start: 15px;
 }

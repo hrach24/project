@@ -2,9 +2,16 @@ import React from 'react';
 import classes from "./Button.module.scss";
 import classNames from "classnames";
 
-const Button = (props) => {
+const Button = ({text, orange, transParentGreen, orangeBtnWithoutRadius, transParentOrange}) => {
     return (
-            <button type={'button'} className={classNames(classes.finance__buttonsGetQuote, classes.btnStyle)}>{props.text}</button>
+        <button
+                className={classNames(classes.button,{
+                 [classes.orange]: orange,
+                 [classes.transParentGreen]: transParentGreen,
+                 [classes.orangeBtnWithoutRadius]: orangeBtnWithoutRadius,
+                 [classes.transParentOrange]: transParentOrange
+            })}
+            type={'button'}>{text}</button>
     );
 };
 

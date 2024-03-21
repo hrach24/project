@@ -21,7 +21,6 @@
   font-size: 24px;
   font-weight: 700;
   display: flex;
-  align-items: center;
 }
 
 .menu__navigation {
@@ -54,4 +53,10 @@
   &.active {
     color: red;
   }
+}
+
+.toHome {
+  color: black;
+  display: flex;
+  align-items: center;
 }

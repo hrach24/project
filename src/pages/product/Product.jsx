@@ -17,7 +17,16 @@ const Product = () => {
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
                                     <div className={classes.wrapper}>
-                                        <Button text={'Buy'}/>
+                                        <Button text={'Buy'}
+                                                backGroundColor={"#FF7B47"}
+                                                padding={ [ {key:10}, {key: 39} ] }
+                                                borderRadius={5}
+                                                border={'none'}
+                                                color={'white'}
+                                                fontWeight={'bold'}
+                                                borderTopRightRadius={5}
+                                                borderBottomRightRadius={5}
+                                        />
                                     </div>
                                 </div>
 
@@ -31,7 +40,16 @@ const Product = () => {
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
                                     <div className={classes.wrapper}>
-                                        <button className={classes.buy}>Buy</button>
+                                        <Button text={'Buy'}
+                                                backGroundColor={"#FF7B47"}
+                                                padding={ [ {key:10}, {key: 39} ] }
+                                                borderRadius={5}
+                                                border={'none'}
+                                                color={'white'}
+                                                fontWeight={'bold'}
+                                                borderTopRightRadius={5}
+                                                borderBottomRightRadius={5}
+                                        />
                                     </div>
                                 </div>
 
@@ -45,7 +63,16 @@ const Product = () => {
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
                                     <div className={classes.wrapper}>
-                                        <button className={classes.buy}>Buy</button>
+                                        <Button text={'Buy'}
+                                                backGroundColor={"#FF7B47"}
+                                                padding={ [ {key:10}, {key: 39} ] }
+                                                borderRadius={5}
+                                                border={'none'}
+                                                color={'white'}
+                                                fontWeight={'bold'}
+                                                borderTopRightRadius={5}
+                                                borderBottomRightRadius={5}
+                                        />
                                     </div>
                                 </div>
 
@@ -59,7 +86,16 @@ const Product = () => {
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
                                     <div className={classes.wrapper}>
-                                        <button className={classes.buy}>Buy</button>
+                                        <Button text={'Buy'}
+                                                backGroundColor={"#FF7B47"}
+                                                padding={ [ {key:10}, {key: 39} ] }
+                                                borderRadius={5}
+                                                border={'none'}
+                                                color={'white'}
+                                                fontWeight={'bold'}
+                                                borderTopRightRadius={5}
+                                                borderBottomRightRadius={5}
+                                        />
                                     </div>
                                 </div>
 
@@ -73,7 +109,16 @@ const Product = () => {
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
                                     <div className={classes.wrapper}>
-                                        <button className={classes.buy}>Buy</button>
+                                        <Button text={'Buy'}
+                                                backGroundColor={"#FF7B47"}
+                                                padding={ [ {key:10}, {key: 39} ] }
+                                                borderRadius={5}
+                                                border={'none'}
+                                                color={'white'}
+                                                fontWeight={'bold'}
+                                                borderTopRightRadius={5}
+                                                borderBottomRightRadius={5}
+                                        />
                                     </div>
                                 </div>
 
@@ -87,7 +132,16 @@ const Product = () => {
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
                                     <div className={classes.wrapper}>
-                                        <button className={classes.buy}>Buy</button>
+                                        <Button text={'Buy'}
+                                                backGroundColor={"#FF7B47"}
+                                                padding={ [ {key:10}, {key: 39} ] }
+                                                borderRadius={5}
+                                                border={'none'}
+                                                color={'white'}
+                                                fontWeight={'bold'}
+                                                borderTopRightRadius={5}
+                                                borderBottomRightRadius={5}
+                                        />
                                     </div>
                                 </div>
 
@@ -101,7 +155,16 @@ const Product = () => {
                                     <p className={classes.title}>Model: S</p>
                                     <p className={classes.title}>Price: 20$</p>
                                     <div className={classes.wrapper}>
-                                        <button className={classes.buy}>Buy</button>
+                                        <Button text={'Buy'}
+                                                backGroundColor={"#FF7B47"}
+                                                padding={ [ {key:10}, {key: 39} ] }
+                                                borderRadius={5}
+                                                border={'none'}
+                                                color={'white'}
+                                                fontWeight={'bold'}
+                                                borderTopRightRadius={5}
+                                                borderBottomRightRadius={5}
+                                        />
                                     </div>
                                 </div>
 
@@ -114,7 +177,16 @@ const Product = () => {
                                 <p className={classes.title}>Model: S</p>
                                 <p className={classes.title}>Price: 20$</p>
                                 <div className={classes.wrapper}>
-                                    <button className={classes.buy}>Buy</button>
+                                    <Button text={'Buy'}
+                                            backGroundColor={"#FF7B47"}
+                                            padding={ [ {key:10}, {key: 39} ] }
+                                            borderRadius={5}
+                                            border={'none'}
+                                            color={'white'}
+                                            fontWeight={'bold'}
+                                            borderTopRightRadius={5}
+                                            borderBottomRightRadius={5}
+                                    />
                                 </div>
                             </div>
                             </div>

@@ -4,6 +4,7 @@ import classNames from "classnames";
 import {useMediaQuery} from "react-responsive";
 import MenuBurger from "../../ui/menuBurger/MenuBurger";
 import HeaderLinks from "./headerLinks/HeaderLinks";
+import {Link} from "react-router-dom";
 
 const Header = () => {
     const tabletScreenWidth = useMediaQuery({query: '(max-width: 1024px)'});
@@ -12,7 +13,7 @@ const Header = () => {
         <header className={classNames(classes.header)}>
             <div className={classNames(classes.header__container, tabletScreenWidthTrueFalse)}>
                 <div className={classes.header__logo}>
-                    Relvise
+                    <Link to={'/'} className={classes.toHome}>Relvise</Link>
                 </div>
                 {tabletScreenWidth ? (
                     <button className={classes.menu__list}>

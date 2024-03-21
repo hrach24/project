@@ -35,22 +35,21 @@
         margin-top: 15px;
     }
 
-    @media screen and (max-width: 650px) {
-        &:not(:last-child) {
-            width: 100%;
-            margin-inline-start: 0;
-
-        }
-        &:last-child {
-            width: 100%;
-            margin-inline-start: 0;
-        }
-    }
     @media screen and (max-width: 1024px) {
         width: calc((100% - 30px) / 2);
-        margin-bottom: 15px;
         &:nth-child(2n + 1) {
             margin-inline-start: 0;
+        }
+        &:nth-child(n + 3){
+            margin-top: 15px;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        width: 100%;
+        &:nth-child(2n) {
+            margin-inline-start: 0;
+            margin-top: 15px;
         }
     }
 }

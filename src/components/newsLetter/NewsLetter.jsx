@@ -7,6 +7,7 @@ import clientImg05 from '../../assets/img/clients-05.png'
 import clientImg06 from '../../assets/img/clients-06.png'
 import classes from './NewsLetter.module.scss'
 import classNames from "classnames";
+import Button from "../ui/button/Button";
 
 
 const NewsLetter = () => {
@@ -37,7 +38,17 @@ const NewsLetter = () => {
                     <div className={classes.search__title}><h3>Subscribe For Latest Newsletter</h3></div>
                     <div className={classes.search__bar}>
                         <input type="text" className={classes.newsletter__searchInput} placeholder={"Your Email"}/>
-                            <button className={classes.subscribeBtn}>Subscribe</button>
+                        {/*<Button text={'Subscribe'}*/}
+                        {/*        backGroundColor={"#FF7B47"}*/}
+                        {/*        padding={ [ {key:10}, {key: 13} ] }*/}
+                        {/*        borderRadius={'none'}*/}
+                        {/*        border={'none'}*/}
+                        {/*        color={'white'}*/}
+                        {/*        fontWeight={'bold'}*/}
+                        {/*        borderTopRightRadius={6}*/}
+                        {/*        borderBottomRightRadius={6}*/}
+                        {/*/>*/}
+                        <Button orangeBtnWithoutRadius={true} text={'Subscribe'}/>
                     </div>
                 </div>
             </div>

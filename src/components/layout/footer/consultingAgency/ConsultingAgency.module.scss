@@ -21,21 +21,24 @@
   }
 }
 
-.footerBtn {
-  padding: 15px 40px;
-  background-color: #FF7B47;
-  border: 1px solid #FF7B47;
-  color: white;
-  font-weight: 600;
-  border-radius: 6px;
-  @media screen and (max-width: 663px) {
-    width: 100%;
-    margin-top: 20px;
-  }
+.titleAndSubtitle {
+    @media screen and (max-width: 660px){
+      width: 100%;
+    }
 }
 
-.titleAndSubtitle {
-  @media screen and (max-width: 663px) {
-    width: 100%;
+.containerHolder {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.forBtnPadding {
+  padding: 0 4px;
+  @media screen and (max-width: 660px){
+    margin: 0 auto;
+    margin-top: 15px;
   }
 }

@@ -1,15 +1,35 @@
-.finance__buttons {
-  margin-top: 40px;
-}
-
-.finance__buttonsGetQuote {
+.orange {
   background-color: #FF7B47;
-  color: white;
-  font-weight: bold;
-  border: none;
-}
-
-.btnStyle {
   padding: 15px 40px;
   border-radius: 15px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.transParentGreen {
+  background-color: transparent;
+  padding: 13px 38px;
+  border: 2px solid #0D5C63;
+  color: #0D5C63;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.orangeBtnWithoutRadius {
+  background-color: #FF7B47;
+  padding: 10px 13px;
+  color: white;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border: 2px;
+}
+
+.transParentOrange {
+  background-color: transparent;
+  padding: 9px 19px;
+  border-radius: 4px;
+  border: 1px solid #FF7B47;
+  color: #FF7B47;
+  font-weight: bold;
 }
